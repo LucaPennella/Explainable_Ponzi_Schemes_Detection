@@ -1,17 +1,32 @@
-Falsi Positivi
-0xca16790e9bb125392960e78befff1d4df4cb5b58
-0x6e692023289738afd6ec4a89bf048c5fbe2db884
-0xa9e2320d9e6c17eb45a921cb2698b42256f5e142
-0x927a4e90c3728f04cc373cd4c445daafa9e54df7
-0xE89938a1cBF4205096405718E1699Fa84608c4bd
-0x8a9771775ed9a5e3440f89ad790764c188e16191
-0x0cf1cbb130e48d9273e16491f77908024560e8e7
-0x15a058323dcd425Be52B9340fb13d7d1F135f554
-0x184c8624d79f41eff9b3a702737ee86eeef80e67
-0xd51a87caaa567677abac451b00e0a0a18a992b49
-0x33720000b3b3bd4b631b76f85049306be257ddc7
+False Positive
+- 0xca16790e9bb125392960e78befff1d4df4cb5b58 
+    This is a gambling game that receives gambles by users (storing them in its balance). 
+    After a certain deadline, it selects a winner and pays her by sending the balance.  
+- 0x6e692023289738afd6ec4a89bf048c5fbe2db884
+    This is not misclassified, it is an elaborated Ponzi Scheme based on https://test.jochen-hoenicke.de/crypto/ponzitoken/ 
+- 0xa9e2320d9e6c17eb45a921cb2698b42256f5e142
+    This contract stores some user information into an internal data structure and then pay some store users when some conditions
+    happens.
+- 0x927a4e90c3728f04cc373cd4c445daafa9e54df7
+    This is a lottery: users can buy a certain number of tickets. 
+    After a certain date, the contract selects the winner and pays her. 
+    However, before sending the money to the winner the contract pays a fee to creators.
+- 0xE89938a1cBF4205096405718E1699Fa84608c4bd
+    This is a lottery. It seems that creators get some fees.
+- 0x8a9771775ed9a5e3440f89ad790764c188e16191
+    This is a token.
+- 0x0cf1cbb130e48d9273e16491f77908024560e8e7
+    This is a token.
+- 0x15a058323dcd425Be52B9340fb13d7d1F135f554
+    This is a token.
+- 0x184c8624d79f41eff9b3a702737ee86eeef80e67
+    This is a token.
+- 0xd51a87caaa567677abac451b00e0a0a18a992b49
+    This is a token.
+- 0x33720000b3b3bd4b631b76f85049306be257ddc7
+    This is a lottery. 
 
-Falsi Negativi
+False Negative
 
 0x766da880f94c69acb4157e794d7956a29dfa4979
 0xec34d45fde0836d50ac8438f8442002b588435c0
