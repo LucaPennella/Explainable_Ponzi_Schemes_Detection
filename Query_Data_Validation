@@ -1,0 +1,47 @@
+# Query per bytecode vuoti
+
+Select
+  ad.address as address_tot
+  ,bt.address as address_bt
+  ,bt.bytecode as bytecode
+FROM `smart-ponzi.Smart_Ponzi_table.addresses` as ad
+LEFT JOIN `smart-ponzi.Smart_Ponzi_table.bytecode_list` as bt
+ON ad.address = bt.address
+WHERE bt.address IS NULL 
+
+# Query Bytecode duplicati
+
+Select
+  bt.bytecode as bytecode
+  ,COUNT(bt.bytecode)  as COUNT_bytecode
+FROM `smart-ponzi.Smart_Ponzi_table.bytecode_list` as bt
+GROUP BY bytecode
+HAVING COUNT_bytecode > 1
+ORDER BY 2 DESC
+
+
+# Query Bytecode duplicati con indirizzi associati
+
+WITH bytecode_duplicate as (
+SELECT 
+  bytecode
+FROM (
+Select
+  bt.bytecode as bytecode
+  ,COUNT(bt.bytecode)  as COUNT_bytecode
+FROM `smart-ponzi.Smart_Ponzi_table.bytecode_list` as bt
+GROUP BY bytecode
+HAVING COUNT_bytecode > 1
+ORDER BY 2 DESC
+)
+)
+
+SELECT 
+  bt.bytecode
+  ,ad.address
+FROM bytecode_duplicate as bt
+LEFT JOIN `smart-ponzi.Smart_Ponzi_table.bytecode_list` as ad
+ON bt.bytecode = ad.bytecode
+ORDER BY bt.bytecode
+
+
