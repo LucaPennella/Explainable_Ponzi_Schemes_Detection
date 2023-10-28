@@ -1,0 +1,52 @@
+False Positive
+
+- 0xc3e777f1a1717be8d68300593d8bf83c33dd02f2
+- 0x927a4e90c3728f04cc373cd4c445daafa9e54df7
+    This is a lottery: users can buy a certain number of tickets. 
+    After a certain date, the contract selects the winner and pays her. 
+    However, before sending the money to the winner the contract pays a fee to creators.
+- 0x2992cfef496b9080b303cc4ac6ba114126253ff7
+- 0x90f0a0f3880401aada42d6da27336cd6610368fe
+- 0x0064353c557afe927866f0f3b748bc271c385d71
+- 0x5fe5b7546d1628f7348b023a0393de1fc825a4fd
+- 0xd51a87caaa567677abac451b00e0a0a18a992b49
+	This is a token.
+- 0x3cfa6d2e89704bd7ff443004c7dbfc8ab0c1f5d7
+- 0x63a74a8abf527ab9e564c3521d685bed11bd699c
+
+False Negative
+
+- 0xf1aa63ad7a897ca02cab6021513ee0a86820153e
+- 0xedcb4363c812ffbdc45777f1029bdcc549fe5fac
+- 0x3dddcf24a8cfbc603a213e772ef07f4f44270ba5
+	This is a fraud hidden as a token. 
+- 0x1fe7a92013b295ff98da0954b7a08e603754a1bf
+- 0x6ca7f214ab2ddbb9a8e1a1e2c8550e3164e9dba5
+- 0x5a8ffa5f2ce95b3a397bda16ad84781b6fde4f8b
+- 0x446a2c358315ca32d7c5b3ac696b82271141a8b1
+- 0x3c34071180ceb4213da92d065f87adcb835028c4
+	The distribution policy is simple
+- 0xfc4f1acaaed191715cd50b9bc5311f7ad076424e
+	This is not misclassified
+- 0x934e65cead3c1c2824ed75d54768d53fa44e4e17
+- 0x309a0465ba40b6b756ef4899dd624ead009a8f50
+- 0x979bc5ecc41b701efabd550b98cedbc137cbb0af
+- 0x05e2d7e3af7df59232d20e916751b9f5b66093b7
+- 0x24f9c2c5032d22153e97205b93339f3496a3a3b5
+	It has a quite complex behaviour
+- 0xbdb8b73aea0c43118ce8834c91d50ae8bbd5ed32
+- 0xce9ed0b322a1420da4b6990e3047796f57471336
+	This a schema ponzi with a random-based distribution policy.
+- 0xe65c53087e1a40b7c53b9a0ea3c2562ae2dfeb24
+- 0x2df0e612dad9ffe8141b3987f60608742db2feca
+- 0xba6284ca128d72b25f1353fadd06aa145d9095af
+- 0x1e997b4a256e11071167a1d08e98a9f5dde0bf72
+- 0x879716da78A75a44bdfa8F038ce875f99586940a
+- 0x27705979b6f4d3b497f62240a6ae11ae535a49df
+	 Only bytecode
+- 0xba2d51af6cb36ca1b96580076b42043816fe26d8
+- 0x28cf9af3aca6aea0b802df31629ce1b7aa243dc2
+- 0x95953fe7b13d3b60aee496b541cd6e157bcf3764
+- 0x2244af1453e6c4a0c9165f8e5fbdded131ad35d6
+- 0x06300cec31cf8edf74a17dac79cbc66355113179
+- 0x7e312bdb6ae3bb7ecf2fe2606533a330fbf583e4
