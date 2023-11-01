@@ -1,98 +1,52 @@
 False Positive
-- 0xca16790e9bb125392960e78befff1d4df4cb5b58 
-    This is a gambling game that receives gambles by users (storing them in its balance). 
-    After a certain deadline, it selects a winner and pays her by sending the balance.  
-- 0x6e692023289738afd6ec4a89bf048c5fbe2db884
-    This is not misclassified, it is an elaborated Ponzi Scheme based on https://test.jochen-hoenicke.de/crypto/ponzitoken/ 
-- 0xa9e2320d9e6c17eb45a921cb2698b42256f5e142
-    This contract stores some user information into an internal data structure and then pay some store users when some conditions
-    happens.
+
+- 0xc3e777f1a1717be8d68300593d8bf83c33dd02f2
 - 0x927a4e90c3728f04cc373cd4c445daafa9e54df7
     This is a lottery: users can buy a certain number of tickets. 
     After a certain date, the contract selects the winner and pays her. 
     However, before sending the money to the winner the contract pays a fee to creators.
-- 0xE89938a1cBF4205096405718E1699Fa84608c4bd
-    This is a lottery. It seems that creators get some fees.
-- 0x8a9771775ed9a5e3440f89ad790764c188e16191
-    This is a token.
-- 0x0cf1cbb130e48d9273e16491f77908024560e8e7
-    This is a token.
-- 0x15a058323dcd425Be52B9340fb13d7d1F135f554
-    This is a token.
-- 0x184c8624d79f41eff9b3a702737ee86eeef80e67
-    This is a token.
+- 0x2992cfef496b9080b303cc4ac6ba114126253ff7
+- 0x90f0a0f3880401aada42d6da27336cd6610368fe
+- 0x0064353c557afe927866f0f3b748bc271c385d71
+- 0x5fe5b7546d1628f7348b023a0393de1fc825a4fd
 - 0xd51a87caaa567677abac451b00e0a0a18a992b49
-    This is a token.
-- 0x33720000b3b3bd4b631b76f85049306be257ddc7
-    This is a lottery following more or less the schema of the other lotteries above. 
+	This is a token.
+- 0x3cfa6d2e89704bd7ff443004c7dbfc8ab0c1f5d7
+- 0x63a74a8abf527ab9e564c3521d685bed11bd699c
 
 False Negative
-- 0x766da880f94c69acb4157e794d7956a29dfa4979
-  This contract is a token which follows a pyramid scheme. 
-  The most of the code implements the typical functions of 
-  a token and the distribution policy is not so apparent.    
-- 0xec34d45fde0836d50ac8438f8442002b588435c0
-  Self-destructed, no longer exists  
-- 0x8ff1c8a8799dd59eca03d9cf52b12ae0ccc21762
-    The distribution logic is hidden
-- 0xbd1e1ea13de6f320e89f33a7076b29d1a00506d8
-    This contract implements an investment program that provides a logic in the redistribution of the investment.
-- 0x485b224c97ad56dc5b145eafdee71a7b5163f735
-    This contract implement a bet system following a pyramid scheme. 
-    The pyramid logic is hidden by the bet one.
+
+- 0xf1aa63ad7a897ca02cab6021513ee0a86820153e
+- 0xedcb4363c812ffbdc45777f1029bdcc549fe5fac
 - 0x3dddcf24a8cfbc603a213e772ef07f4f44270ba5
-    This is a fraud hidden as a token. 
-- 0x4be45969e8f72ce085424913ac4fb916932d58d7
-    The distribution logic is hidden
-- 0x5a60ad57b09779adec3d760edfa59a427aa3e654
-    Only bytecode
-- 0xce9ed0b322a1420da4b6990e3047796f57471336
-    This a schema ponzi with a random-based distribution policy.
-- 0x386d51a52b36ff03602798418d4d5eec49939c5b
-    The distribution logic is hidden
-- 0x5c432d5563004932d4207fb67dfda29135f195e6
-    This does not seem misclassified
-- 0xba65a627196767f7fa851713d9325d1df1958147
-    Only bytecode
-- 0x0d5919572552c6c8c752aa402bd033f2b2886bbc
-    Only bytecode
-- 0x39de05db56c42041f1c378c72ddd0161ef91070b
-    Self-destructed contract
-- 0x6e98ec66592478a25c3cf2ccb5ec335fd8e8aa5c
-    The contract looks like a glambing game.
-- 0x1fe1751d26fda707ad29894a866f7aa3e1ffe628
-    Only bytecode 
-- 0x20442f9439c874c02e8451e03d6235ee27ee3afe
-    Only bytecode
-- 0x8d5ede2af16e4dd5b7fd6c4f2b33bf685fffd584
-    The contract use a strange distribution policy.
-- 0xcd32fa4732fd6a4b921e44753659a488f1ced0e1
-    Self-destructed contract
-- 0xfc4f1acaaed191715cd50b9bc5311f7ad076424e
-    This is not misclassified
-- 0xe8b55deaced913c5c6890331d2926ea0fcbe59ac
-    The possible flaudolent behaviour is hidden inside other one (a game in this case)
-- 0x1ce7986760ade2bf0f322f5ef39ce0de3bd0c82b
-    The possible flaudolent behaviour is hidden inside other one (an ico in this case)
-- 0x43fb95c7afa1ac1e721f33c695b2a0a94c7ddab2
-    The possible flaudolent behaviour is hidden inside other one (a token in this case)
-- 0x27705979b6f4d3b497f62240a6ae11ae535a49df
-    Only bytecode
-- 0x24f9c2c5032d22153e97205b93339f3496a3a3b5
-    It has a quite complex behaviour
-- 0x2c8eab1b7c57a6f9f81f761b26b71f99b25ff59c
-    This is not misclassified
-- 0x99925cc9a57f5e473ff22314cfe0627a0bfcceb4
-    Self-destructed contract
-- 0xf63600989abe81911c3b177e738d5b41c4d3198c
-    The distribution policy is simple
+	This is a fraud hidden as a token. 
+- 0x1fe7a92013b295ff98da0954b7a08e603754a1bf
+- 0x6ca7f214ab2ddbb9a8e1a1e2c8550e3164e9dba5
+- 0x5a8ffa5f2ce95b3a397bda16ad84781b6fde4f8b
+- 0x446a2c358315ca32d7c5b3ac696b82271141a8b1
 - 0x3c34071180ceb4213da92d065f87adcb835028c4
-    The distribution policy is simple
-- 0x985413542845db5a7b415ca75b9e5fae20e64d4d
-    Only bytecode
-- 0xc1dc3238dc94615e47da5096e49dd4a94eb16e27
-    Only bytecode
-- 0x2c3cc0f8dede2eccae43380ecf29b61fa6d10dca
-    The contract use a strange distribution policy.
-- 0xF062783C821E2f5a1d3768a20D2C281d134E0C92
-    This is not misclassified
+	The distribution policy is simple
+- 0xfc4f1acaaed191715cd50b9bc5311f7ad076424e
+	This is not misclassified
+- 0x934e65cead3c1c2824ed75d54768d53fa44e4e17
+- 0x309a0465ba40b6b756ef4899dd624ead009a8f50
+- 0x979bc5ecc41b701efabd550b98cedbc137cbb0af
+- 0x05e2d7e3af7df59232d20e916751b9f5b66093b7
+- 0x24f9c2c5032d22153e97205b93339f3496a3a3b5
+	It has a quite complex behaviour
+- 0xbdb8b73aea0c43118ce8834c91d50ae8bbd5ed32
+- 0xce9ed0b322a1420da4b6990e3047796f57471336
+	This a schema ponzi with a random-based distribution policy.
+- 0xe65c53087e1a40b7c53b9a0ea3c2562ae2dfeb24
+- 0x2df0e612dad9ffe8141b3987f60608742db2feca
+- 0xba6284ca128d72b25f1353fadd06aa145d9095af
+- 0x1e997b4a256e11071167a1d08e98a9f5dde0bf72
+- 0x879716da78A75a44bdfa8F038ce875f99586940a
+- 0x27705979b6f4d3b497f62240a6ae11ae535a49df
+	 Only bytecode
+- 0xba2d51af6cb36ca1b96580076b42043816fe26d8
+- 0x28cf9af3aca6aea0b802df31629ce1b7aa243dc2
+- 0x95953fe7b13d3b60aee496b541cd6e157bcf3764
+- 0x2244af1453e6c4a0c9165f8e5fbdded131ad35d6
+- 0x06300cec31cf8edf74a17dac79cbc66355113179
+- 0x7e312bdb6ae3bb7ecf2fe2606533a330fbf583e4
