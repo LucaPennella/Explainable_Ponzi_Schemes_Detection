@@ -39,7 +39,22 @@ The X-SPIDE pipeline combines high-performance classification with explainabilit
 
 ## 📘 Citation
 
-If you use this repository or dataset, please cite: Pennella et al.: *X-SPIDE: An eXplainable Machine Learning Pipeline for Detecting Smart Ponzi Contracts in Ethereum*, IEEE Access.
+## 📚 How to Cite
+
+If you use X-SPIDE, its datasets, or the code in your research, please cite:
+
+> Pennella et al.: *X-SPIDE: An eXplainable Machine Learning Pipeline for Detecting Smart Ponzi Contracts in Ethereum*, IEEE Access.
+
+BibTeX:
+```bibtex
+@article{pennella2025xspide,
+  title     = {X-SPIDE: An eXplainable Machine Learning Pipeline for Detecting Smart Ponzi Contracts in Ethereum},
+  author    = {Luca Pennella and Fabio Pinelli and Letterio Galletta},
+  journal   = {IEEE Access},
+  year      = {2025},
+  note      = {To appear}
+}
+
 
 
 
