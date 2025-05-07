@@ -9,11 +9,17 @@ The X-SPIDE pipeline combines high-performance classification with explainabilit
 
 ## Repository Structure
 
-├── dataset/ → Cleaned datasets, bytecodes, contract addresses, and feature files
-├── data/ → Scripts and Jupyter notebooks for training, evaluation, and XAI
-├── miscellaneous/ → Misclassified contract lists, manual annotations, utility queries
-├── old_scripts/ → Legacy scripts from early project stages (kept for reference)
+- `dataset/`  
+  Contains cleaned datasets, extracted bytecodes, contract addresses, and feature files.
 
+- `data/`  
+  Scripts and Jupyter notebooks for model training, evaluation, and XAI analysis.
+
+- `miscellaneous/`  
+  Includes lists of misclassified contracts, manual inspection notes, and queries used for validation.
+
+- `old_scripts/`  
+  Legacy scripts from early development stages (kept for reference and transparency).
 ---
 
 ## Dataset Highlights
