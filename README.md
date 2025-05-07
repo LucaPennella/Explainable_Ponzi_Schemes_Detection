@@ -37,9 +37,7 @@ The X-SPIDE pipeline combines high-performance classification with explainabilit
 
 ---
 
-## 📘 Citation
-
-## 📚 How to Cite
+## How to Cite
 
 If you use X-SPIDE, its datasets, or the code in your research, please cite:
 
