@@ -38,7 +38,8 @@ The X-SPIDE pipeline combines high-performance classification with explainabilit
 ## Features
 
 - **Code-based features**: Frequency of opcodes from EVM bytecode (absolute and normalized)  
-- **Account-based features**: ETH flow statistics, transaction timing, and initiator profit  
+- **Account-based features**: The information associated with each smart contract about its
+activities on the blockchain 
 - **Label**: Ponzi (`1`) vs Non-Ponzi (`0`) classification  
 
 ---
