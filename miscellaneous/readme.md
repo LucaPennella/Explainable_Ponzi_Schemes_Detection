@@ -1,4 +1,4 @@
-## miscellaneous/
+## miscellaneous
 
 This folder contains auxiliary files used during manual validation, model analysis, and data checking steps. These resources are not part of the core ML pipeline but were essential for debugging and verifying the integrity of results.
 
