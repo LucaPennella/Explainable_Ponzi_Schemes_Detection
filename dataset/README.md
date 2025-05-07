@@ -1,4 +1,4 @@
-# Explainable Ponzi Schemes Detection on Ethereum
+# Dataset Description and File Structure
 
 This repository contains the dataset and resources associated with the paper **"X-SPIDE: An eXplainable Machine Learning Pipeline for Detecting Smart Ponzi Contracts in Ethereum"**.  
 The project aims to detect Ponzi schemes deployed as smart contracts on the Ethereum blockchain, combining strong model performance with explainability through XAI techniques.
