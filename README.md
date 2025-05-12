@@ -5,6 +5,8 @@ This repository contains the resources associated with the paper
 
 The X-SPIDE pipeline combines high-performance classification with explainability tools such as SHAP values and Partial Dependence Plots (PDPs), enabling not only effective detection but also insight into decision-making.
 
+![X-SPIDE Pipeline Overview](miscellaneous/pipeline_stage.png)
+
 ---
 
 ## Repository Structure
