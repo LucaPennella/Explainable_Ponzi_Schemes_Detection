@@ -3,6 +3,8 @@
 This repository contains the resources associated with the paper  
 **"X-SPIDE:An eXplainable Machine Learning Pipeline for Detecting Smart Ponzi Contracts in Ethereum"**, which proposes a transparent and reproducible approach for identifying Ponzi schemes deployed as smart contracts on the Ethereum blockchain.
 
+[DOI: 10.1109/ACCESS.2025.3569565](https://doi.org/10.1109/ACCESS.2025.3569565)
+
 The X-SPIDE pipeline combines high-performance classification with explainability tools such as SHAP values and Partial Dependence Plots (PDPs), enabling not only effective detection but also insight into decision-making.
 
 ![X-SPIDE Pipeline Overview](miscellaneous/x-spide-pipeline.png)
@@ -52,6 +54,7 @@ activities on the blockchain
 If you use X-SPIDE, its datasets, or the code in your research, please cite:
 
 > Pennella et al.: *X-SPIDE: An eXplainable Machine Learning Pipeline for Detecting Smart Ponzi Contracts in Ethereum*, IEEE Access.
+> DOI: [10.1109/ACCESS.2025.3569565](https://doi.org/10.1109/ACCESS.2025.3569565)
 
 BibTeX:
 ```bibtex
@@ -60,7 +63,7 @@ BibTeX:
   author    = {Luca Pennella and Fabio Pinelli and Letterio Galletta},
   journal   = {IEEE Access},
   year      = {2025},
-  note      = {To appear}
+  doi       = {10.1109/ACCESS.2025.3569565}
 }
 
 
