@@ -58,13 +58,17 @@ If you use X-SPIDE, its datasets, or the code in your research, please cite:
 
 BibTeX:
 ```bibtex
-@article{pennella2025xspide,
-  title     = {X-SPIDE: An eXplainable Machine Learning Pipeline for Detecting Smart Ponzi Contracts in Ethereum},
-  author    = {Luca Pennella and Fabio Pinelli and Letterio Galletta},
-  journal   = {IEEE Access},
-  year      = {2025},
-  doi       = {10.1109/ACCESS.2025.3569565}
-}
+@ARTICLE{11003052,
+  author={Pennella, Luca and Pinelli, Fabio and Galletta, Letterio},
+  journal={IEEE Access}, 
+  title={X-SPIDE: An eXplainable Machine Learning Pipeline for Detecting Smart Ponzi Contracts in Ethereum}, 
+  year={2025},
+  volume={13},
+  number={},
+  pages={85037-85055},
+  keywords={Blockchains;Smart contracts;Pipelines;Codes;Investment;Peer-to-peer computing;Fraud;Hands;Feature extraction;Explainable AI;Anomaly detection;blockchain;code features;eXplainable AI;fraud detection},
+  doi={10.1109/ACCESS.2025.3569565}}
+
 
 
 
